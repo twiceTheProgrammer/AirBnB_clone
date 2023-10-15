@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-""" Unittests for AirBnB Console
-"""
 
 from datetime import datetime
 import io
@@ -29,7 +27,6 @@ class Test_non_existing_command(unittest.TestCase):
             HBNBCommand().onecmd("asd")
             st = f.getvalue()
             self.assertEqual(msg, st)
-
 
 class Test_help(unittest.TestCase):
 
