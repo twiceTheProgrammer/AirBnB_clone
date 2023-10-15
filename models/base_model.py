@@ -3,7 +3,6 @@
 """
 BaseModel class that defines all common attributes/methods
 for other classes
-
 """
 
 from datetime import datetime
